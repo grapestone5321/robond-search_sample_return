@@ -40,6 +40,7 @@ Calibration Data: We read in and display example grid and rock sample calibratio
 
 ![alt text][image2]
 ![alt text][image3]
+
 Perspective Transform: We define the perspective transform function from the lesson and test it on an image.
 
 Color Thresholding: We define the color thresholding functions from the lesson and apply it to the warped image. The color thresholding functions are used to determine three area categories of terrain, obstacle and rocks.
