@@ -32,23 +32,23 @@
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  
 
 Here is the writeup for this project that include a statement and supporting figures / images that explain how each rubric item was addressed, and specifically where in the code each step was handled.
- 
+
+![alt text][image1]
 ### Notebook Analysis
 #### 1. Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
 Calibration Data: We read in and display example grid and rock sample calibration images. We use the grid for perspective transform and the rock image for creating a new color selection that identifies these samples of interest. 
 
+![alt text][image2]
+![alt text][image3]
 Perspective Transform: We define the perspective transform function from the lesson and test it on an image.
 
 Color Thresholding: We define the color thresholding functions from the lesson and apply it to the warped image. The color thresholding functions are used to determine three area categories of terrain, obstacle and rocks.
 
 Coordinate Transformations: We define the functions used to do coordinate transforms and apply them to an image.## Project: Search and Sample Return
 
-![alt text][image1]
-
 #### 1. Populate the `process_image()` function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap.  Run `process_image()` on your test data using the `moviepy` functions provided to create video output of your result. 
 And another! 
 
-![alt text][image2]
 ### Autonomous Navigation and Mapping
 
 #### 1. Fill in the `perception_step()` (at the bottom of the `perception.py` script) and `decision_step()` (in `decision.py`) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
@@ -62,6 +62,6 @@ Here I'll talk about the approach I took, what techniques I used, what worked an
 
 
 
-![alt text][image3]
+
 
 
