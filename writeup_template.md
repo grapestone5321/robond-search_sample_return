@@ -46,7 +46,7 @@ Perspective Transform: We define the perspective transform function from the les
 
 Color Thresholding: We define the color thresholding functions from the lesson and apply it to the warped image. The color thresholding functions are used to determine three area categories of terrain, obstacle and rocks.
 
-Coordinate Transformations: We define the functions used to do coordinate transforms and apply them to an image.## Project: Search and Sample Return
+Coordinate Transformations: We define the functions used to do coordinate transforms and apply them to an image.
 
 #### 1. Populate the `process_image()` function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap.  Run `process_image()` on your test data using the `moviepy` functions provided to create video output of your result. 
 We modify the process_image function by adding in the perception step processes to perform image analysis and mapping. We use this process_image function in conjunction with the moviepy video processing package to create a video from the images we saved taking data in the simulator. 
