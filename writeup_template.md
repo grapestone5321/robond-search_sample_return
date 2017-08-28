@@ -22,6 +22,7 @@
 [image1]: ./misc/rover_image.jpg
 [image2]: ./calibration_images/example_grid1.jpg
 [image3]: ./calibration_images/example_rock1.jpg 
+[image4]: ./misc/rover_image2.jpg
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/916/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -66,5 +67,5 @@ Note: screen resolution for simulator: 1024 x 768
 From the results of the approach, we see that the rover is rather unpredictable. At certain arbitrary points of time, the rover keeps moving around the same place in circles. We might improve it if we were going to pursue this project further.
 
 
-![alt text][image1]
+![alt text][image4]
 
