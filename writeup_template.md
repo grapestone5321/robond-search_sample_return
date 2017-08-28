@@ -55,7 +55,7 @@ We modify the process_image function by adding in the perception step processes 
 #### 1. Fill in the `perception_step()` (at the bottom of the `perception.py` script) and `decision_step()` (in `decision.py`) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
 In perception_step function, we use basically the same  code we implement in process_image function in the jupyter notebook.
 
-
+In the decision_step function, we add two conditionals. First, when the rover get stuck in place, we try to go backwards. Second, when the rover is not close to rock but there is some rock in the horizon, we try to guide it to towards rock.
 #### 2. Launching in autonomous mode your rover can navigate and map autonomously.  Explain your results and how you might improve them in your writeup.  
 
 **Note: running the simulator with different choices of resolution and graphics quality may produce different results, particularly on different machines!  Make a note of your simulator settings (resolution and graphics quality set on launch) and frames per second (FPS output to terminal by `drive_rover.py`) in your writeup when you submit the project so your reviewer can reproduce your results.**
