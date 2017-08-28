@@ -35,7 +35,13 @@ Here is the writeup for this project that include a statement and supporting fig
  
 ### Notebook Analysis
 #### 1. Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
-Here is an example of how to include an image in this writeup.
+Calibration Data: We read in and display example grid and rock sample calibration images. We use the grid for perspective transform and the rock image for creating a new color selection that identifies these samples of interest. 
+
+Perspective Transform: We define the perspective transform function from the lesson and test it on an image.
+
+Color Thresholding: We define the color thresholding functions from the lesson and apply it to the warped image. The color thresholding functions are used to determine three area categories of terrain, obstacle and rocks.
+
+Coordinate Transformations: We define the functions used to do coordinate transforms and apply them to an image.## Project: Search and Sample Return
 
 ![alt text][image1]
 
