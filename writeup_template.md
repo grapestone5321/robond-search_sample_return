@@ -65,5 +65,5 @@ Note: screen resolution for simulator: 1024 x 768
 From the results of the approach, we see that the rover is rather unpredictable. At certain arbitrary points of time, the rover keeps moving around the same place in circles. We might improve it if we were going to pursue this project further.
 
 
-
+![alt text][image1]
 
