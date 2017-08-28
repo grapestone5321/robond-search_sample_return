@@ -31,8 +31,8 @@
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  
 
-You're reading it!
-
+Here is the writeup for this project that include a statement and supporting figures / images that explain how each rubric item was addressed, and specifically where in the code each step was handled.
+ 
 ### Notebook Analysis
 #### 1. Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
 Here is an example of how to include an image in this writeup.
