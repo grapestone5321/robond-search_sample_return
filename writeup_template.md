@@ -48,12 +48,12 @@ Color Thresholding: We define the color thresholding functions from the lesson a
 Coordinate Transformations: We define the functions used to do coordinate transforms and apply them to an image.## Project: Search and Sample Return
 
 #### 1. Populate the `process_image()` function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap.  Run `process_image()` on your test data using the `moviepy` functions provided to create video output of your result. 
-We Modify the process_image() function by adding in the perception step processes to perform image analysis and mapping. We use this process_image() function in conjunction with the moviepy video processing package to create a video from the images we saved taking data in the simulator. 
+We modify the process_image function by adding in the perception step processes to perform image analysis and mapping. We use this process_image function in conjunction with the moviepy video processing package to create a video from the images we saved taking data in the simulator. 
 
 ### Autonomous Navigation and Mapping
 
 #### 1. Fill in the `perception_step()` (at the bottom of the `perception.py` script) and `decision_step()` (in `decision.py`) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
-The code used in perception_step() is basically the same  code we implement in process_image() in the jupyter notebook.
+In perception_step function, we use basically the same  code we implement in process_image function in the jupyter notebook.
 
 
 #### 2. Launching in autonomous mode your rover can navigate and map autonomously.  Explain your results and how you might improve them in your writeup.  
